@@ -18,9 +18,9 @@ env:
 on:
   pull_request:
   push:
-    tags:
+    # tags:
     branches:
-      - main
+      - dev
 
 permissions:
   contents: read # to fetch code (actions/checkout)
