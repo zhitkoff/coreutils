@@ -20,7 +20,7 @@ on:
   push:
     tags:
     branches:
-      - main
+      - dev
 
 permissions:
   contents: read # to fetch code (actions/checkout)
